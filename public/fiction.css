@@ -1,0 +1,17 @@
+body {
+	background-image: url(/img/notebook.jpg);
+}
+
+h1 {
+	text-align: center;
+	font-size: 4em;
+	color: white;
+	text-shadow: 3px 3px 0px #000;
+}
+
+#container {
+	display: inline;
+}
+
+
+

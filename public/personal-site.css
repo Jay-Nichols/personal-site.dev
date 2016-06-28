@@ -1,0 +1,14 @@
+body {
+	background-image: url(/img/coast.jpg);
+	background-size: cover;	
+}
+
+#navbar {
+	opacity: 1;
+}
+
+#nameBright {
+	color: white;
+}
+
+

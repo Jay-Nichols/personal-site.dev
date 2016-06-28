@@ -1,0 +1,23 @@
+body {
+	background-image: url(/img/more-waves.jpeg);
+	background-size: cover;
+}
+
+#projects {
+	color: #006080;
+	text-align: center;
+	font-size: 4em;
+	font-family: verdana;
+	text-shadow: 3px 3px 3px #fff;
+}
+
+#simplesimon {
+	color: black;
+	text-align: center;
+	font-size: 2em;
+	font-family: verdana;
+	text-shadow: 1px 1px 1px #fff;
+	position: absolute;
+	top: 50%;
+	
+}
