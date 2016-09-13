@@ -11,7 +11,7 @@ body {
 	text-shadow: 3px 3px 3px #fff;
 }
 
-#simplesimon {
+/*#simplesimon {
 	color: black;
 	text-align: center;
 	font-size: 2em;
@@ -19,5 +19,28 @@ body {
 	text-shadow: 1px 1px 1px #fff;
 	position: absolute;
 	top: 50%;
-	
+
+}*/
+
+#container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #008fb3;
 }
+
+#container li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover*/ 
+
+#container li a:hover {
+    background-color: #33d6ff;
+    color: white;
+}
+

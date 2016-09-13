@@ -7,11 +7,40 @@ h1 {
 	font-size: 4em;
 	color: white;
 	text-shadow: 3px 3px 0px #000;
+	margin-bottom: 1px;
+}
+
+#subtitle {
+	text-align: center;
+	font-size: 2em;
+	color: white;
 }
 
 #container {
 	display: inline;
 }
 
+#list ul {
+	text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #008fb3;
+}
+
+#list li a {
+    display: inline;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover*/ 
+
+#list li a:hover {
+    background-color: #33d6ff;
+    color: white;
+}
 
 
