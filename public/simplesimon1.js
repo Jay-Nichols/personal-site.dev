@@ -114,14 +114,20 @@
 		}
 		if (playersMatch.length == gamesChoice.length) {
 			var sorryMessage = [
-			"You lost, but you're still a winner in my book!", 
+			"You lost, but you're a winner in my book!", 
 			"This game is over, but for you things are just beginning.", 
 			"Have I told you that you look good today? Press Start to play again.",
-			"You haven't failed; you've just broken the rules. And that's okay.",
+			"You didn't fail; you just fell short of perfection. And that's okay.",
 			"Your mom still loves you. Play again?",
 			"I'm sorry that you lost. Hugging a puppy will make you feel better.",
-			"You're still a child of God. (Did I go to far on this one?)",
-			"People dig you. Maybe not your Simple Simon skills..."
+			"You're still a child of God. (Did I go to far with this one?)",
+			"People dig you. Maybe not your Simple Simon skills...",
+			"So you lost at Simple Simon. So what? You've still got a lot going for you.",
+			"It's okay to cry. Would you like to play again?",
+			"You are soooo good-looking!",
+			"No one's judging you.",
+			"Play Simple Simon like no one's watching.",
+			"You are a valuable and loved human being. Play again?"
 			] 
 			var sorry = sorryMessage[Math.floor(Math.random()*sorryMessage.length)];
 			message.html(sorry);
