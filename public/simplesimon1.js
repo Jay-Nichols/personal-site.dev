@@ -127,7 +127,7 @@
 			"You are soooo good-looking!",
 			"No one's judging you.",
 			"Play Simple Simon like no one's watching.",
-			"You are a valuable and loved human being. Play again?"
+			"You are a valued and loved human being. Play again?"
 			] 
 			var sorry = sorryMessage[Math.floor(Math.random()*sorryMessage.length)];
 			message.html(sorry);
