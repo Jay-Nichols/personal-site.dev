@@ -7,8 +7,8 @@
 <html>
 <head>
 	<?php include 'partials/bootstrap_header.php' ?>
-	<?php include 'css/personal-site.css' ?>
+	<link rel="stylesheet" href="/css/personal-site.css">
 </head>
 <body>
-	<?php include 'partails/navbar.php' ?>
+	<?php include 'partials/navbar.php' ?>
 </body>
